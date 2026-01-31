@@ -1,34 +1,30 @@
-# IDX LQ45's Stock Prediction
+# House Price Prediction
 
 ## Repository Outline
 ```
-1. README.md - Penjelasan gambaran umum project
-2. P1M2_rifqi_asyrafi.ipynb - Notebook for build model
-3. P1M2_rifqi_asyrafi_inf.ipynb - Notebook for inferencing/predicting new data
-4. P1M2_rifqi_asyrafi.csv - Dataset for training model
-5. P1M2_rifqi_asyrafi_inf.csv - New data which will be predicted
-6. P1M2_rifqi_asyrafi_conceptual.txt - Conceptual explanation about the choosen algorithm
-7. Deployment - Python script for deployment
-9. dataset_descriptopn.png - Description of dataset columns
+1. description.md - Penjelasan gambaran umum project
+2. training_notebook.ipynb - Notebook for build model
+3. inference_notebook.ipynb - Notebook for inferencing/predicting new data
+4. house-price-v2.csv - Dataset for training model
+5. deployment - Folder consists of script for deployment
+6. dataset_description.png - Description of dataset columns
 ```
 
 ## Problem Background
-The potential of Indonesia's Stock Market is attractive and considerable. For being a part of drive the market, we should have robust consideration for gaining the greatest profit within certain period of time. Understanding stock market is a complex job and very tiring. We should consider many aspects affecting stock price. For helping us to understand market quickly, we need smart tool to identify the potential of each stock day by day. Based on this problem, we need to build a tools to give recommendation of prospect stock.
+Purchasing a residential property represents a significant milestone for many individuals. However, navigating the complexities of the real estate market within a specific budget can be an overwhelming endeavor. Property values are influenced by a diverse array of characteristics and variables, and assessing these factors objectively often proves challenging due to inherent cognitive biases. This project is driven by the need to provide a systematic framework that assists prospective buyers in evaluating their options through data-driven insights.
 
 ## Project Output
-For addressing the problem above, this project is developed to build a model for predicting potential stocks. This model learns from stocks on LQ45 IDX Index for classifying which stocks will mount by 3% within 5 days.
+The primary goal of this project is to develop a predictive model that estimates property prices based on their specific attributes. By providing accurate price projections, this model enables homebuyers to align their financial expectations with market realities, facilitating more informed and confident purchasing decisions.
 
 ## Data
 ![alt text](dataset_description.png)
-`Bagian ini menjelaskan secara singkat mengenai data yang digunakan seperti sumber data, deskripsi singkat karakteristik data seperti jumlah kolom, baris data, missing values, dsb`
 
 ## Method
-This model implement XGBoost algoritm which is the most reliable model than compared models, KNN, Decision Tree, Random Forest and SVC.
+This model implement XGBoost algoritm which is the most reliable model than compared models, Random Forest, XGBoost, Linear Regression (Ridge), Linear Regression (Ridge), Linear Regression (Lasso), Linear Regression (Polynomial).
 
 ## Stacks
 Language    : Python
-Tools       : Visual Studio Code, Streamlit, Docker
+Tools       : Visual Studio Code, Streamlit, HuggingFace
 
 ## Reference
-
----
+HuggingFace Deployment https://huggingface.co/spaces/RifqiAs/House_Price_Prediction
