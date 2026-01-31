@@ -1,0 +1,10 @@
+pandas
+numpy
+tensorflow
+nltk
+tensorflow_hub
+streamlit
+matplotlib
+dill
+scikit-learn==1.6.1
+feature_engine
