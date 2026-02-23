@@ -2,7 +2,7 @@
 
 ## Repository Outline
 ```
-1. description.md - Penjelasan gambaran umum project
+1. README.md - Project overview
 2. training_notebook.ipynb - Notebook for build model
 3. inference_notebook.ipynb - Notebook for inferencing/predicting new data
 4. house-price-v2.csv - Dataset for training model
